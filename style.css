@@ -30,6 +30,7 @@ body {
   background-repeat:no-repeat ;
   background-position:top center ;
   background-size: cover;
+  height: 100vh;
 }
 
 body * {
@@ -91,9 +92,6 @@ body * {
   border:  1px solid var(--stroke-color);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-  
-
-
 }
 
 ul {
@@ -102,7 +100,6 @@ ul {
   flex-direction: column;
   gap: 16px;
   padding: 24px 0;
-
 }
 
 ul li a {
@@ -151,4 +148,17 @@ footer {
   font-size: 14px;
 }
 
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
 
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+
+
+
+
+
+}
