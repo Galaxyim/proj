@@ -80,6 +80,13 @@ body * {
   animation: slide-out .4s;
 }
 
+#switch button:hover {
+  background-color: gray;
+  
+
+
+}
+
 
 
 .light #switch button {
